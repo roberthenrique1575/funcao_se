@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculo da diferença entre dois</h1>
+    <div id="resultado"></div>
+    <script>
+        let numero1 = Number(prompt ("Digite o primeiro número"));
+        let numero2 = Number(prompt ("Digite o segundo número"));
+        let valor = numero1 - numero2
+        if (numero2>numero1){
+            valor = numero2 - numero1
+            document.getElementById("resultado").innerHTML = "A diferença é: " + valor
+        }else{
+            document.getElementById("resultado").innerHTML = "A diferença é: " + valor
+        }
+
+    </script>
+</body>
+</html>

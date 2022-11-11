@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculo de meta de funcionario</h1>
+    <div id="resultado"></div>
+    <script>
+        let nome = prompt ("Qual o nome do funcionário")
+        let valorvenda = Number(prompt ("Qual valor de vendas realizadas"))
+        let valormeta = Number(2500)
+        if (valorvenda >= valormeta){
+            document.getElementById("resultado").innerHTML = "Ganhou!!"
+        }else
+             document.getElementById("resultado").innerHTML = "Não Ganhou!"
+
+    </script>
+</body>
+</html>

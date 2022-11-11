@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> cauculo de função se</h1>
+    <div id="resultado"></div>
+    <script>
+        let nome1 = prompt("digite o primeiro nome")
+        let peso1 = Number(prompt("digite o peso da primeira pessoa"))
+        let nome2 =  prompt("digite o segundo nome")
+        let peso2=Number(prompt("digite o peso da segunda pessoa"))
+
+        let resultado
+        if(peso1>peso2){
+            resultado = " O " + nome1 + " e mais obeso que " + nome2
+        }else{
+            resultado = " O " + nome2 + " e mais obeso que " + nome1
+        }
+        document.getElementById("resultado").innerHTML= resultado
+
+    </script>
+    
+</body>
+</html>

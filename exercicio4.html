@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <h1>Calculo se o número é ímpar ou par</h1>
+        <div id="resultado"></div>
+        <script>
+            let numero = Number(prompt ("Digite o número"))
+            let valor = numero % 2
+            let resul
+            if (valor == 0){
+                resul = "O número é par!"
+            }else{
+                resul = "O número é Ímpar!"
+            }
+            document.getElementById("resultado").innerHTML = resul;
+        </script>
+    
+       
+    
+    </body>
+    
+    </html>
